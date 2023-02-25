@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ホーム｜肌ラボ</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <script src="https://kit.fontawesome.com/d9a06d6966.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body id="shop">
+  <div class="page">
+    <header>
+      <div class="openbtn"><span></span><span></span><span></span></div>
+      <nav id="g-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li> | </li>
+          <li><a href="menu.html">Menu</a></li>
+          <li> | </li>
+          <li><a href="shop.html">Shop</a></li>
+          <li> | </li>
+        </ul>
+      </nav>
+
+      <h1>hadalabo</h1>
+      <p>uruoi</p>
+
+      <div class="eyecatch-shop">
+        <img src="scss/image/eyecatch-store.png" alt="eyecatch">
+      </div>
+    </header>
+    <main>
+      <article>
+        <h2>SHOP</h2>
+        <h3>一部お取り扱いのない商品もございます。</h3>
+        <p><a href="#"><i class="fa-solid fa-cart-shopping"></i>WEBで購入</a></p>
+
+        <div class="links">
+          <div class="lohaco">
+            <a href="#"><img src="scss/image/lohaco.png" alt="lohaco"></a>
+          </div>
+          <div class="rakuten">
+            <a href="#"><img src="scss/image/rakuten.png" alt="rakuten"></a>
+          </div>
+          <div class="amazon">
+            <a href="#"><img src="scss/image/amazon.png" alt="amazon"></a>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <img src="scss/image/logo.png" alt="肌ラボ">
+      <small>© ROHTO Pharmaceutical Co.,Ltd. All rights reserved.</small>
+    </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(".openbtn").click(function () {//ボタンがクリックされたら
+      $(this).toggleClass('active');//ボタン自身に activeクラスを付与し
+      $("#g-nav").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
+    });
+
+    $("#g-nav a").click(function () {//ナビゲーションのリンクがクリックされたら
+      $(".openbtn").removeClass('active');//ボタンの activeクラスを除去し
+      $("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
+    });
+  </script>
+</body>
+
+</html>
