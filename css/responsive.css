@@ -561,8 +561,8 @@
   }
 
   #menu section.menu1 .blue-left .blue-box {
-    width: auto;
-    margin-left: 0;
+    width: 360px;
+    margin: 0 auto;
   }
 
   #menu section.menu1 .blue-right {
@@ -611,8 +611,9 @@
   }
 
   #menu section.menu2 .red-right .red-box {
-    width: auto;
+    width: 360px;
     text-align: left;
+    margin: 0 auto;
 
   }
 
