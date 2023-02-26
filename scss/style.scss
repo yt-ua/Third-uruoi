@@ -399,7 +399,7 @@ footer {
     .content2 {
       @include row;
       width: 1100px;
-      margin: -830px auto 0 auto;
+      margin: -900px auto 0 auto;
       padding: 0 60px;
 
       .icon {
@@ -431,10 +431,10 @@ footer {
       }
 
       .inside {
-        width: 500px;
+        width: 450px;
         line-height: 1.6;
-        margin-top: -420px;
-        margin-left: -75px;
+        margin-top: -440px;
+        margin-left: -85px;
 
 
         h3 {
@@ -445,7 +445,8 @@ footer {
         }
 
         h2 {
-          font-size: 35px;
+          text-align: center;
+          font-size: 30px;
           color: $main-color;
           margin-bottom: 20px;
         }
@@ -553,7 +554,7 @@ section.point3 {
 
 
 section.point4 {
-  margin: -700px auto 1000px auto;
+  margin: -760px auto 1000px auto;
 
   .content4 {
     @include row;

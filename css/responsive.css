@@ -279,9 +279,9 @@
     line-height: 2;
   }
 
-  #home section.point3 .content3 .leftbox br {
+  /* #home section.point3 .content3 .leftbox br {
     display: none;
-  }
+  } */
 
   #home section.point3 .content3 .rightbox {
     width: auto;
